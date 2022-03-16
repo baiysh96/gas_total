@@ -58,12 +58,14 @@ body {
     border-radius: 15px;
     margin-bottom: 9px;
     transition: 0.6s;
+    cursor: pointer;
 
 }
 
 .show {
     background: linear-gradient(180deg, #30B3BB 0%, #BAFBFF 100%);
-    cursor: pointer;
+    border: 2px solid indianred;
+
 }
 
 .box__price {

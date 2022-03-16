@@ -11,17 +11,14 @@ let ai98 = ''
 let ai100 = ''
 let total = ''
 
-
 box.forEach((item) => {
     item.addEventListener('click', () =>{
         box.forEach((item,i) => {
             item.classList.remove('show')
             clean()
-            check()
         })
         item.classList.add('show')
     })
-
     totalLiters.addEventListener('input', () => {
         if (input[0].value === `${ai95 = 1.3}`) {
             petrolType.textContent = `${priceAI[0].textContent}`
@@ -42,10 +39,8 @@ box.forEach((item) => {
             totalLiter.textContent = `${totalLiters.value}`
             totalPrice.textContent = `Total price: ${input[2].value * totalLiters.value * 0.05 + input[2].value *
             totalLiters.value }$`
-
         }
     })
-
 })
 function clean() {
     input[0].value = ''
