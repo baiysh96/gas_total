@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>GAS Station</title>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -24,7 +24,7 @@
                 </div>
                 <div class="box__price">
                     <label for="AI" class="price__AI">AI95</label>
-                    <input type="text" name=""  placeholder="1.3$/1L" class="input" id="AI">
+                    <input type="text" name=""  placeholder="Price/1L" class="input" id="AI">
                 </div>
             </div>
             <div class="col-4">
@@ -35,7 +35,7 @@
                 </div>
                 <div class="box__price">
                     <p class="price__AI">AI98</p>
-                    <input type="text" name=""  placeholder="1.5$/1L" class="input">
+                    <input type="text" name=""  placeholder="Price/1L" class="input">
                 </div>
             </div>
             <div class="col-4">
@@ -46,7 +46,7 @@
                 </div>
                 <div class="box__price">
                     <p class="price__AI">AI100</p>
-                    <input type="text" name=""  placeholder="1.7$/1L" class="input">
+                    <input type="text" name=""  placeholder="Price/1L" class="input">
                 </div>
             </div>
         </div>
@@ -54,20 +54,24 @@
 </section>
 <section class="price">
     <div class="container">
-        <label for="total" class="total_title">Total liters:</label> <br>
-        <input type="text" class="total__liters" id="total" value="">
+       <div>
+           <label for="total" class="total_title">Total liters:</label> <br>
+           <input type="text" class="total__liters" id="total" value="" placeholder="Enter the number of liters">
+           <button class="btn count">count</button>
+           <button class="btn">print</button>
+       </div>
 
         <div class="bills" style="margin-bottom: 15px">
-        <span class="bills-text">Bills</span>
-        <div class="type" style="margin-bottom: 8px">Petrol type:<span></span></div>
+        <span class="bills-text">Bills:</span>
+        <div class="type" style="margin-bottom: 8px">Petrol type:  <span></span></div>
         <div class="price-liter" style="margin-bottom: 8px">Price for one liter:<span></span></div>
         <div class="total-liter"style="margin-bottom: 8px">Total liters:<span></span></div>
         <div class="vat">VAT: 5%</div>
     </div>
-        <div class="total-price"><span class="total-price">Total price:</span></div>
+        <div class="total-price">Total price:0$</div>
     </div>
 </section>
-
+<input type="text" id="only_num" value="" />
 <script src="./js/script.js"></script>
 </body>
 </html>
