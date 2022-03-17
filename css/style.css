@@ -99,11 +99,11 @@ body {
 
 .total__liters {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     background: #FFFFFF;
     border: 2px solid #AFACAC;
     box-sizing: border-box;
-    border-radius: 4px;
+    border-radius: 15px;
     padding: 5px 50px 5px 10px;
     width: 252px;
     height: 40px;
@@ -129,33 +129,53 @@ body {
     height: 162px;
     border: 1px solid gainsboro;
     display: inline-block;
-    padding: 15px 0 10px;
+    padding: 8px 0 0;
     text-align: center;
+
 
 }
 
-.price-liter, .type, .total-liter, .vat {
+.price-liter, .type, .total-liter {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 23px;
+    color: #000000;
+    border-bottom: 1px solid gainsboro;
+}
+.vat{
     font-weight: 600;
     font-size: 18px;
     line-height: 23px;
     color: #000000;
 }
-
 .bills-text {
     margin-bottom: 20px;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
     color: #000000;
+    padding-bottom: 20px;
+
 }
 
 .price {
     margin-bottom: 100px;
 }
 
-.total-price span {
+.total-price {
     font-weight: 700;
-    font-size: 20px;
+    font-size: 22px;
     color: black;
 
+}
+.btn{
+ margin-bottom: 15px;
+    width: 70px;
+    height: 40px;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.type{
+    margin-top: 10px;
+    border-bottom: 1px solid gainsboro;
 }
